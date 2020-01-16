@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  <head>
+    <title>HTML Basic</title>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.sound.js"></script>
+    <script src="sketch.js"></script>
+    <style> {
+    box-sizing: border-box;
+  }
+    h1 {
+      border: 10px solid black;
+    }
+    nav {
+  float: left;
+  width: 30%;
+  height: 233px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+  border: 10px solid black;
+    }
+    section {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #5c8df7;
+  height: 300px; /* only for demonstration, should be removed */
+    }
+    section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+    button {
+    border: 10px solid black;
+    padding: 40px;
+    }
+    </style>
+  </head>
+  <body style="background-color:powderblue;">
+<h1 style= "font-size:300%;"> Community Computing Project </h1>
+<article style= "font-family:courier;font-size:150%; padding: 20px"> Are you lost in a techified world? Is your tech controlling you now? If so, come request a project or task related to computing and your trusty coders will get it done!
+</article>
+<section>
+<nav>
+<button style="font-size:300%;"> <a href="https://docs.google.com/document/u/0/">Request a Project</a>
+</button>
+</nav>
+<article>
+<img src ="https://www.scienceabc.com/wp-content/uploads/2019/08/Abstract-Technology-Binary-code-Background.Digital-binary-data-and-Secure-Data-Concept-VectorFotomays.jpg" width="450" height="293" alt="Binary">
+</img src>
+</article>
+</section>
+  </body>
+</html>
